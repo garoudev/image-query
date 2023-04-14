@@ -1,0 +1,37 @@
+{
+  "name": "@garoudev/image-query",
+  "version": "0.0.1",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prebuild:force": "rimraf dist",
+    "build:force": "tsc --force",
+    "lint": "eslint --ext .ts src"
+  },
+  "keywords": [
+    "garou"
+  ],
+  "homepage": "https://github.com/garoudev/image-query#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garoudev/image-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garoudev/image-query/issues"
+  },
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@garoudev/eslint-config": "^1.0.1",
+    "@types/node": "^18.15.11",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.26.8"
+  }
+}
