@@ -3,5 +3,5 @@ import { resizeOptionsSchema } from "./resize-options.js";
 
 export const resizeSchema = Type.Object({
   name: Type.Literal("resize"),
-  options: resizeOptionsSchema
+  arg1: resizeOptionsSchema
 });

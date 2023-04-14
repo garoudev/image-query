@@ -3,5 +3,5 @@ import { trimOptionsSchema } from "./trim-options.js";
 
 export const trimSchema = Type.Object({
   name: Type.Literal("trim"),
-  options: trimOptionsSchema
+  arg1: trimOptionsSchema
 });

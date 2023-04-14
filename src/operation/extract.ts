@@ -3,5 +3,5 @@ import { regionSchema } from "./region.js";
 
 export const extractSchema = Type.Object({
   name: Type.Literal("extract"),
-  options: regionSchema
+  arg1: regionSchema
 });

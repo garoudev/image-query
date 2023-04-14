@@ -3,5 +3,5 @@ import { extendOptionsSchema } from "./extend-options.js";
 
 export const extendSchema = Type.Object({
   name: Type.Literal("extend"),
-  options: extendOptionsSchema
+  arg1: extendOptionsSchema
 });
