@@ -5,3 +5,5 @@
 [![License](https://img.shields.io/github/license/garoudev/image-query)](./LICENSE)
 
 > This is a pure ESM package. CommonJS is not supported.
+
+Current, this target sharp 0.32.0
