@@ -1,10 +1,9 @@
 import { Type } from "@sinclair/typebox";
+import color from "../color.js";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  name: Type.Literal("tint"),
+  arg1: color
 });
 
 export default schema;

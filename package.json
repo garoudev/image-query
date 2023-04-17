@@ -14,12 +14,42 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/*.d.ts",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
-    "./*": {
-      "types": "./dist/*.d.ts",
-      "import": "./dist/*.js"
+    "./format": {
+      "types": "./src/format/index.ts",
+      "import": "./dist/format/index.js"
+    },
+    "./format/*": {
+      "types": "./src/format/*/index.ts",
+      "import": "./dist/format/*/index.js"
+    },
+    "./operation": {
+      "types": "./src/operation/index.ts",
+      "import": "./dist/operation/index.js"
+    },
+    "./operation/*": {
+      "types": "./src/operation/*/index.ts",
+      "import": "./dist/operation/*/index.js"
+    }
+  },
+  "imports": {
+    "#format": {
+      "types": "./src/format/index.ts",
+      "import": "./dist/format/index.js"
+    },
+    "#format/*": {
+      "types": "./src/format/*/index.ts",
+      "import": "./dist/format/*/index.js"
+    },
+    "#operation": {
+      "types": "./src/operation/index.ts",
+      "import": "./dist/operation/index.js"
+    },
+    "#operation/*": {
+      "types": "./src/operation/*/index.ts",
+      "import": "./dist/operation/*/index.js"
     }
   },
   "keywords": [

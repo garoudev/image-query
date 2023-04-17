@@ -1,10 +1,8 @@
 import { Type } from "@sinclair/typebox";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  name: Type.Literal("flop"),
+  arg1: Type.Optional(Type.Boolean())
 });
 
 export default schema;

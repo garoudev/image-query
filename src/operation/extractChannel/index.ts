@@ -1,10 +1,9 @@
 import { Type } from "@sinclair/typebox";
+import channel from "./channel.js";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  name: Type.Literal("extractChannel"),
+  arg1: channel
 });
 
 export default schema;

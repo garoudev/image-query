@@ -1,10 +1,8 @@
 import { Type } from "@sinclair/typebox";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  greyscale: Type.Optional(Type.Boolean()),
+  grayscale: Type.Optional(Type.Boolean())
 });
 
 export default schema;

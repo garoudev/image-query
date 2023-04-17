@@ -1,10 +1,6 @@
 import { Type } from "@sinclair/typebox";
+import rgba from "./rgba.js";
 
-export const RGBASchema = Type.Object({
-  r: Type.Optional(Type.Number()),
-  g: Type.Optional(Type.Number()),
-  b: Type.Optional(Type.Number()),
-  alpha: Type.Optional(Type.Number())
-});
+const schema = Type.Union([Type.String(), rgba]);
 
-export const ColorSchema = Type.Union([Type.String(), RGBASchema]);
+export default schema;

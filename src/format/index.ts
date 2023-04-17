@@ -1,6 +1,7 @@
 import { Type } from "@sinclair/typebox";
-import { jpegSchema } from "./jpeg.js";
-import { pngSchema } from "./png.js";
-import { webpSchema } from "./webp.js";
+import jpeg from "#format/jpeg";
+import png from "#format/png";
+import webp from "#format/webp";
+import gif from "#format/gif";
 
-export const formatSchema = Type.Union([jpegSchema, pngSchema, webpSchema]);
+export const formatSchema = Type.Union([jpeg, png, webp, gif]);

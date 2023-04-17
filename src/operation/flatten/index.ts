@@ -1,10 +1,9 @@
 import { Type } from "@sinclair/typebox";
+import options from "./options.js";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  name: Type.Literal("flatten"),
+  arg1: Type.Optional(options)
 });
 
 export default schema;

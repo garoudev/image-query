@@ -1,10 +1,9 @@
 import { Type } from "@sinclair/typebox";
+import region from "../region.js";
 
 const schema = Type.Object({
-  left: Type.Number(),
-  top: Type.Number(),
-  width: Type.Number(),
-  height: Type.Number()
+  name: Type.Literal("extract"),
+  arg1: region
 });
 
 export default schema;
