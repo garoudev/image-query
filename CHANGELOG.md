@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/garoudev/image-query/compare/v0.1.0...v0.1.1) (2023-04-17)
+
+
+### Bug Fixes
+
+* Fix recomb name ([1680279](https://github.com/garoudev/image-query/commit/1680279e2297e924873614517fce243c7aed7c8b))
+
 ## 0.1.0 (2023-04-17)
 
 
