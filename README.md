@@ -6,4 +6,6 @@
 
 > This is a pure ESM package. CommonJS is not supported.
 
-Current, this target sharp 0.32.0
+This is object format library for image. It defines sharp of image manipulation query.
+
+Current, this targets sharp 0.32.0.
