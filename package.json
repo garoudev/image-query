@@ -18,19 +18,19 @@
       "import": "./dist/index.js"
     },
     "./format": {
-      "types": "./src/format/index.ts",
+      "types": "./dist/format/index.d.ts",
       "import": "./dist/format/index.js"
     },
     "./format/*": {
-      "types": "./src/format/*/index.ts",
+      "types": "./dist/format/*/index.d.ts",
       "import": "./dist/format/*/index.js"
     },
     "./operation": {
-      "types": "./src/operation/index.ts",
+      "types": "./dist/operation/index.d.ts",
       "import": "./dist/operation/index.js"
     },
     "./operation/*": {
-      "types": "./src/operation/*/index.ts",
+      "types": "./dist/operation/*/index.d.ts",
       "import": "./dist/operation/*/index.js"
     }
   },
@@ -63,6 +63,9 @@
   "bugs": {
     "url": "https://github.com/garoudev/image-query/issues"
   },
+  "files": [
+    "dist"
+  ],
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "devDependencies": {
