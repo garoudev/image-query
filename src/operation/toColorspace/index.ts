@@ -5,7 +5,7 @@ const schema = Type.Object({
     Type.Literal("toColorspace"),
     Type.Literal("toColourspace")
   ]),
-  arg1: Type.Optional(Type.String())
+  arg1: Type.String()
 });
 
 export default schema;
