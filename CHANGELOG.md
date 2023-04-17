@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/garoudev/image-query/compare/v0.1.1...v0.1.2) (2023-04-17)
+
+
+### Bug Fixes
+
+* Fix toColorspace options ([5e637b6](https://github.com/garoudev/image-query/commit/5e637b608c8d41fbbebf10f87c1a0194497f9a89))
+
 ## [0.1.1](https://github.com/garoudev/image-query/compare/v0.1.0...v0.1.1) (2023-04-17)
 
 
