@@ -3,7 +3,7 @@ import options from "./options.js";
 
 const schema = Type.Object({
   format: Type.Literal("png"),
-  options
+  options: Type.Optional(options)
 });
 
 export default schema;
