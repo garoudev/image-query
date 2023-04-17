@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/garoudev/image-query/compare/v0.1.2...v0.1.3) (2023-04-17)
+
+
+### Bug Fixes
+
+* Fix format options ([ad268cd](https://github.com/garoudev/image-query/commit/ad268cd5f403c404694cf4f86c40dd9f64181571))
+
 ## [0.1.2](https://github.com/garoudev/image-query/compare/v0.1.1...v0.1.2) (2023-04-17)
 
 
